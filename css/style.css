@@ -1,16 +1,60 @@
-.header-color{
-    background-color: #264653;
+/* body  */
+
+body {
+    font-family: poppins;
 }
-.bike{filter: grayscale(100%);}
-.client{color: #E76F51;}
-.body{font-family: 'Poppins', sans-serif;}
+
+/* header section  */
+
+.header-background {
+    background-color: #264653;
+    height          : 100vh;
+}
+
+
+.button-header {
+    background-color: #E76F51;
+    border-radius   : 5px;
+    width           : 168px;
+    height          : 44px;
+    color           : white;
+}
+
+/* bike section  */
+.bike-1 img,
+.bike-3 img {
+    filter: grayscale(100%);
+}
+
+
+
+/* client section  */
+
+.client {
+    color: #E76F51;
+}
+
 
 /* card  */
 
-.card{height: 478.01px; width: 322px;}
-.card-3 img{
+.testimonial .card {
+    height: 478.01px;
+    width : 322px;
+}
+
+.card-3 img {
     border-radius: 50%;
 }
-.fa-star{color: #E77C40;}
-.identity{color: #23A6F0;}
+
+.fa-star {
+    color: #E77C40;
+}
+
+.identity {
+    color: #23A6F0;
+}
+
 /* card end */
+
+/* footer */
+.footer-color{background-color: #0B0D17; color: white;}
